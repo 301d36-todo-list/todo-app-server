@@ -1,0 +1,25 @@
+{
+  "name": "todo-app-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/301d36-todo-list/todo-app-server.git"
+  },
+  "author": "Kat Cosgrove and Vinicio Sanchez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/301d36-todo-list/todo-app-server/issues"
+  },
+  "homepage": "https://github.com/301d36-todo-list/todo-app-server#readme",
+  "dependencies": {
+    "cors": "^2.8.4",
+    "express": "^4.16.3",
+    "pg": "^7.4.3"
+  }
+}
